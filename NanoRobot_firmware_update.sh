@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-python firmware_update.py /dev/move_base NanoRobot_firmware.bin
+python script/firmware_update.py /dev/move_base firmware/NanoRobot_firmware.bin
