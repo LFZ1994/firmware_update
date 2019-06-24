@@ -4,7 +4,7 @@ Step 1:cd to this fold and run ./4WD_firmware_update.sh
 Step 2:press Device Updata Key set Device to Update mode
 Step 3:when terminal print "Firmware Update Done",update is completed and your device now running new firmware
 
-4WD user:
+Nanorobot user:
 Step 0:Power ON and make sure NOT runing ROS application 
 Step 1:cd to this fold and  run ./Nanorobot_firmware_update.sh on RaspberryPi 3B
 Step 2:press Device Updata Key set Device to Update mode
