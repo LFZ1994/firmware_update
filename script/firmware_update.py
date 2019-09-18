@@ -208,6 +208,7 @@ def ymodem(args):
 	print("Can not Open Firmware File "+args[2])
    	sys.exit(0)
     print("Waiting Connection...")   
+    print("Please Press Update Key")   
     while True:
         length = ser.in_waiting
         if length:
