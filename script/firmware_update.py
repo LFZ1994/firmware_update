@@ -184,6 +184,7 @@ class LightYModem:
 	LightYModem.packet_mark = self.stx
         while response==LightYModem.ack:
             response = self.send_packet(file, output)
+	    print("response+"response)
 
         file.close()
         if response==LightYModem.eot:
